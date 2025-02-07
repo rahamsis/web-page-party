@@ -1,0 +1,47 @@
+.btn-sms {
+    background-color: #fff;
+    border: 1px solid #25D366;
+    padding: 5px;
+    position: relative;
+    width: 12.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  .btn-sms p {
+    position: absolute;
+    top: 0;
+    left: 1.15em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #25D366;
+  }
+  
+  .btn-sms svg {
+    position: absolute;
+    top: 0.45em;
+    right: 0.5em;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  .btn-sms:hover p {
+    left: 0.5em;
+    color: #fff
+  }
+  
+  .btn-sms:hover svg {
+    opacity: 1;
+  }
+  
+  .btn-sms:hover {
+    background-color: #25D366;
+  }
+  
